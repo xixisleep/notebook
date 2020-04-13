@@ -1,0 +1,3 @@
+tf.argmax(input,axis)根据axis取值的不同返回每行或者每列最大值的索引。 这个很好理解，只是tf.argmax()的参数让人
+有些迷惑，比如，tf.argmax(array, 1)和tf.argmax(array, 0)有啥区别呢？ 这里面就涉及到一个概念：axis。
+上面例子中的1和0就是axis。我先笼统的解释这个问题，设置axis的主要原因是方便我们进行多个维度的计算。
